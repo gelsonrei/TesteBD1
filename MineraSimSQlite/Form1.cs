@@ -71,5 +71,10 @@ namespace MineraSimSQlite
                 MessageBox.Show("Update failed");
             }
         }
+
+        private void BtRemoverPessoa_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Remover");
+        }
     }
 }
